@@ -1,0 +1,66 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    border-right: none;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  max-width: 500px;
+  padding: 0em 1em;
+  margin-top: .5em;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.trash span {
+  display: flex;
+  align-items: center;
+}
